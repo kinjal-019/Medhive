@@ -1,0 +1,2 @@
+import {Routes,Route} from "react-router-dom";import AdminLayout from "../../../shared/layouts/AdminLayout";import AdminDashboard from "../pages/AdminDashboard";import VerificationRequests from "../pages/VerificationRequests";import ManagePatients from "../pages/ManagePatients";
+export default function AdminRoutes(){return <Routes><Route element={<AdminLayout/>}><Route index element={<AdminDashboard/>}/><Route path="users" element={<ManagePatients/>}/><Route path="verifications" element={<VerificationRequests/>}/></Route></Routes>}

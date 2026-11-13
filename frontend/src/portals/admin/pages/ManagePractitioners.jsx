@@ -1,0 +1,1 @@
+export default function ManagePractitioners(){return <section className="panel"><h2>Manage Practitioners</h2><p>Admin module connected to the MedHive portal structure.</p></section>}

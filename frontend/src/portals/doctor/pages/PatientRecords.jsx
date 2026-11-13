@@ -1,0 +1,1 @@
+export default function PatientRecords(){return <section className="panel"><h2>Patient Records</h2><p>Connected portal module. Add live data widgets as the corresponding backend records are populated.</p></section>}

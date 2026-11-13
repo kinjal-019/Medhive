@@ -1,0 +1,1 @@
+export default function ManageAppointments(){return <section className="panel"><h2>Manage Appointments</h2><p>Admin module connected to the MedHive portal structure.</p></section>}

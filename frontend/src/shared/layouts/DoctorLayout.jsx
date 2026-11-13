@@ -1,0 +1,2 @@
+import { Outlet } from "react-router-dom"; import { useAuth } from "../../context/AuthContext"; import {PortalLayout} from "./PatientLayout";
+export default function DoctorLayout(){const {user,logout}=useAuth();return <PortalLayout title="Practitioner Portal" user={user} logout={logout} links={[["/doctor","Dashboard"],["/doctor/appointments","Appointments"],["/doctor/queue","Queue"],["/doctor/prescription","Prescription"],["/doctor/voice","Voice Prescription"],["/doctor/analytics","Analytics"]]}><Outlet/></PortalLayout>}

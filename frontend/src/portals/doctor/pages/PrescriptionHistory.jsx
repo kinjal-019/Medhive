@@ -1,0 +1,1 @@
+export default function PrescriptionHistory(){return <section className="panel"><h2>Prescription History</h2><p>Connected portal module. Add live data widgets as the corresponding backend records are populated.</p></section>}

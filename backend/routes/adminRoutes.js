@@ -1,0 +1,2 @@
+const router=require("express").Router(); const protect=require("../middleware/authMiddleware"); const authorize=require("../middleware/roleMiddleware"); const c=require("../controllers/adminController");
+router.use(protect,authorize("admin")); router.get("/stats",c.stats); router.get("/users",c.users); router.get("/verifications",c.verifications); router.patch("/verifications/:id",c.reviewVerification); module.exports=router;

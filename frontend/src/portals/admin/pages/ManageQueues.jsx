@@ -1,0 +1,1 @@
+export default function ManageQueues(){return <section className="panel"><h2>Manage Queues</h2><p>Admin module connected to the MedHive portal structure.</p></section>}

@@ -1,0 +1,1 @@
+export default function PractitionerDetails(){return <section className="panel"><h2>Practitioner Details</h2><p>This module is scaffolded for the next integration step. Core authentication, appointments, queue, prescriptions and feedback are connected.</p></section>}

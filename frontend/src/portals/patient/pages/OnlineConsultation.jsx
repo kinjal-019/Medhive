@@ -1,0 +1,1 @@
+export default function OnlineConsultation(){return <section className="panel"><h2>Online Consultation</h2><p>This module is scaffolded for the next integration step. Core authentication, appointments, queue, prescriptions and feedback are connected.</p></section>}

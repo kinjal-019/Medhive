@@ -1,0 +1,2 @@
+const router=require("express").Router(); const protect=require("../middleware/authMiddleware"); const {createProfile,myProfile,search,updateAvailability}=require("../controllers/practitionerController");
+router.get("/search",search); router.use(protect); router.post("/profile",createProfile); router.get("/profile",myProfile); router.patch("/availability",updateAvailability); module.exports=router;

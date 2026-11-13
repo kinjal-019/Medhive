@@ -1,0 +1,1 @@
+export default function AdminProfile(){return <section className="panel"><h2>Admin Profile</h2><p>Admin module connected to the MedHive portal structure.</p></section>}
